@@ -14,14 +14,15 @@
 library(data.table)
 
 # 02 Load data ----
+setwd("C:/Users/alex/Documents/Instacart_Data")
 
 #dt_aisles <- fread('../input/aisles.csv')
 #dt_departments <- fread('../input/departments.csv')
 #dt_products <- fread('../input/products.csv')
-dt_orders <- fread('../input/orders.csv')
-dt_prior <- fread('../input/order_products__prior.csv')
+dt_orders <- fread('data/orders.csv')
+dt_prior <- fread('data/order_products__prior.csv')
 #dt_train <- fread('../input/order_products__train.csv')
-dt_submission <- fread('../input/sample_submission.csv')
+dt_submission <- fread('data/sample_submission.csv')
 
 
 # 03 identify prior order ID----
